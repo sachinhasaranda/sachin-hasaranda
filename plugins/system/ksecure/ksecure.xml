@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<extension type="plugin" group="system" method="upgrade" version="2.5">
+	<name>System - kareebu Secure</name>
+	<author>kareebu</author>
+	<creationDate>November 2012</creationDate>
+	<copyright>This plugin is released under the GNU/GPL License</copyright>
+	<license>GNU General Public License</license>
+	<authorEmail>hello@kareebu.com</authorEmail>
+	<authorUrl>www.kareebu.com</authorUrl>
+	<version>1.0.3</version>
+	<description>KRB_SECURE_DESC</description>
+	<files>
+		<filename>index.html</filename>
+		<filename plugin="ksecure">ksecure.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_ksecure.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_ksecure.sys.ini</language>
+	</languages>
+	<config>
+        <fields name="params">
+            <fieldset name="basic">
+				<field name="enabled" type="radio" class="btn-group" default="0" label="KRB_SECURE_PASSWORD_ENABLE" description="KRB_SECURE_PASSWORD_ENABLE_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="password" type="password" size="50" default="" label="KRB_SECURE_PASSWORD" description="KRB_SECURE_PASSWORD_DESC" />
+				<field name="mode" type="radio" class="btn-group" default="0" label="KRB_SECURE_MODE" description="KRB_SECURE_MODE_DESC">
+					<option value="1">KRB_SECURE_MODE_AUTH</option>
+					<option value="0">KRB_SECURE_MODE_COMPAT</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

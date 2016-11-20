@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>System - Securitycheck Spam Protection</name>
+	<author>José A. Luque </author>
+	<creationDate>27-06-2016</creationDate>
+	<copyright>Copyright www.protegetuordenador.com</copyright>
+	<license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<authorEmail>contacto@protegetuordenador.com</authorEmail>
+	<authorUrl>www.protegetuordenador.com</authorUrl>
+	<version>1.0.2</version>
+	<description>Plugin to check users against the StopForumSpam database before registering in our site.</description>
+	
+	<files>
+		<filename plugin="securitycheck_spam_protection">securitycheck_spam_protection.php</filename>
+		<filename>index.html</filename>	
+		<folder>languages</folder>		
+	</files>
+	
+	<!-- Runs on install/uninstall/update; -->
+	<scriptfile>install.php</scriptfile>
+	
+	<languages>
+		<language tag="en-GB">languages/en-GB.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="en-GB">languages/en-GB.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="es-ES">languages/es-ES.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="es-ES">languages/es-ES.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="pt-BR">languages/pt-BR.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="pt-BR">languages/pt-BR.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="fr-FR">languages/fr-FR.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="fr-FR">languages/fr-FR.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="sl-SI">languages/sl-SI.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="sl-SI">languages/sl-SI.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="nl-NL">languages/nl-NL.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="nl-NL">languages/nl-NL.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="ja-JP">languages/ja-JP.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="ja-JP">languages/ja-JP.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="en-US">languages/en-US.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="en-US">languages/en-US.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="it-IT">languages/it-IT.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="it-IT">languages/it-IT.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="ca-ES">languages/ca-ES.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="ca-ES">languages/ca-ES.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="de-DE">languages/de-DE.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="de-DE">languages/de-DE.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="ru-RU">languages/ru-RU.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="ru-RU">languages/ru-RU.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="pl-PL">languages/pl-PL.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="pl-PL">languages/pl-PL.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="hr-HR">languages/hr-HR.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="hr-HR">languages/hr-HR.plg_system_securitycheck_spam_protection.sys.ini</language>
+		<language tag="bs-BA">languages/bs-BA.plg_system_securitycheck_spam_protection.ini</language>
+		<language tag="bs-BA">languages/bs-BA.plg_system_securitycheck_spam_protection.sys.ini</language>
+	</languages>
+		
+	<updateservers>
+		<server type="extension" priority="1" name="Securitycheck Extensions Site"><![CDATA[https://securitycheck.protegetuordenador.com/update/updates_securitycheck_spam_protection.xml]]></server>
+	</updateservers>
+</extension>

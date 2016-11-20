@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+<name>Business Firm</name>
+<version>1.1</version>
+<creationDate>June 2015</creationDate>
+<author>JoomlaSaver</author>
+<authorEmail>mail@joomlasaver.com</authorEmail>
+<authorUrl>http://www.joomlasaver.com</authorUrl>
+<copyright>JoomlaSaver 2015</copyright>
+<license>GNU/GPL</license>
+<description><![CDATA[<div style="border:1px solid #c0c0c0; padding:15px; text-align:center;">Business Firm<br />Joomla 3x Templates<br />GNU/GPL License<br /><br />Visit <a href="http://www.joomlasaver.com">JoomlaSaver</a><br />Contact <a href="mailto:mail@joomlasaver.com">JoomlaSaver</a></div>]]></description>
+<files>
+<filename>index.php</filename>
+<filename>error.php</filename>
+<filename>component.php</filename>
+<filename>templateDetails.xml</filename>
+<filename>template_preview.png</filename>
+<filename>template_thumbnail.png</filename>
+<filename>favicon.ico</filename>
+<folder>framework</folder>
+<folder>images</folder>
+<folder>html</folder>
+<folder>css</folder>
+<folder>js</folder>
+</files>
+<positions>
+<position>toolbar</position>
+<position>banner</position>
+<position>advert1</position>
+<position>advert2</position>
+<position>advert3</position>
+<position>advert4</position>
+<position>advert5</position>
+<position>left</position>
+<position>right</position>
+<position>user1</position>
+<position>user2</position>
+<position>user3</position>
+<position>user4</position>
+<position>user5</position>
+<position>user6</position>
+<position>user7</position>
+<position>user8</position>
+<position>user9</position>
+<position>bottom1</position>
+<position>bottom2</position>
+<position>bottom3</position>
+<position>bottom4</position>
+<position>bottom5</position>
+<position>footer1</position>
+<position>footer2</position>
+<position>footer3</position>
+<position>footer4</position>
+<position>footer5</position>
+</positions>
+<config>
+<fields name="params">
+<fieldset name="Basic" label="Template Configuration">
+<field name="selectlogo" type="media" label="Select Logo" default="templates/businessfirm/images/logo.png" />
+<field name="fontfamily" type="list" default="fontfamily1" label="Font Family">
+<option value="fontfamily1">Arial</option>
+<option value="fontfamily2">Times New Roman</option>
+<option value="fontfamily3">Courier New</option>
+<option value="fontfamily4">Georgia</option>
+<option value="fontfamily5">Verdana</option>
+<option value="fontfamily6">Geneva</option>
+<option value="fontfamily7">Book Antiqua</option>
+</field>
+</fieldset>
+</fields>
+</config>
+</extension>
